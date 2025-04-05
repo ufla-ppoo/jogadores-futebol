@@ -125,3 +125,27 @@ Compare as alterações que você fez nesse passo e no passo anterior.
 
 << Digite sua resposta aqui (trocando o texto dessa linha pela sua resposta) >>
 
+## [Opcional] Passo 7 - Usando HashMap para dados pré-processados
+
+Suponha que o usuário quisesse consultar quantos jogadores nasceram em cada país.
+
+Nós poderíamos facilmente tratar isso fazendo uma busca no `ArrayList` de jogadores, 
+da mesma forma que foi feita a busca pelo nome do jogador, 
+mas agora buscando pelo nome de um país e contando quantas vezes ele aparece.
+
+Mas se essa fosse uma consulta feita muitas vezes no sistema, 
+seria melhor se a contabilização fosse feita uma única vez,
+para todos os países, e ficasse disponível para consulta de forma rápida.
+
+- Nós podemos fazer isso usando um `HashMap`.
+
+Seguindo essa ideia, neste passo você deve criar uma nova opção de menu
+`Número de jogadores por país`.
+
+- Para tratá-la, você precisará criar um novo atributo `HashMap` na classe `Principal`.
+- Esse atributo será usado para guardar a quantidade de jogadores que nasceram em cada país.
+- Os dados do `HashMap` devem ser carregados a partir do `HashMap` de jogadores, logo
+  após este último ser carregado.
+  - Crie um método separado para tratar esse carregamento.
+- Quando o usuário acessar a nova opção de menu, ele deve informar o nome correto do país
+  e a quantidade de jogadores que nasceram nele deve ser exibida para o usuário.
