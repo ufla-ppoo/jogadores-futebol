@@ -72,18 +72,27 @@ public class Principal {
         }
     }
 
+    /**
+     * Exibe uma mensagem e fica aguardando o usuário apertar ENTER 
+     */ 
     private void aguardarEnter() {
         System.out.println("\nDigite ENTER para continuar!");
         entrada.nextLine();
     }
 
+    /**
+     * Carrega os dados dos jogadores de um arquivo
+     */
     private void carregarJogadores() {
         jogadores = Dados.carregarDadosJogadores();
 
-        System.out.println("Carregados dados de " + jogadores.size() + " jogadores.");
+        System.out.println("Dados carregados com sucesso!");
         aguardarEnter();
     }
 
+    /**
+     * Exibe os dados dos jogadores com paginação
+     */
     private void listarJogadores() {
         if (jogadores.size() == 0) {
             System.out.println("Dados de jogadores não foram carregados!");
@@ -124,6 +133,9 @@ public class Principal {
         }
     }
 
+    /**
+     * Busca um jogador na lista de jogadores pelo nome e exibe suas informações detalhadas
+     */
     private void buscarJogadorPorNome() {
         if (jogadores.size() == 0) {
             System.out.println("Dados de jogadores não foram carregados!");
@@ -150,6 +162,9 @@ public class Principal {
         aguardarEnter();
     }
 
+    /**
+     * Exibe as informações detalhadas do jogador que está no índice da lista escolhido
+     */
     private void buscarJogadorPorIndice() {
         if (jogadores.size() == 0) {
             System.out.println("Dados de jogadores não foram carregados!");
