@@ -85,13 +85,40 @@ Compare o seu código com o método que trata a busca do jogador pelo nome usand
 
 Lembre-se de testar sua alteração para confirmar se o método funciona corretamente.
 
-## Passo 4 - Melhorando a busca
+## Passo 4 - Cuidados no uso do HashMap
+
+Execute o programa e exiba os dados de um jogador chamado `Pedro` tanto na opção 
+`Buscar jogador por nome` (que usa `ArrayList`), quanto na opção `Buscar jogador por nome no HashMap`.
+
+- O resultado é o que você esperava? O que acha que aconteceu?
+- Obs.: responda o que você acha no momento antes de ler o resto do exercício.
+
+<< Digite sua resposta aqui (trocando o texto dessa linha pela sua resposta) >>
+
+Algo está estranho, certo? Vamos explorar isso um pouco mais.
+
+- Altere o método `carregarJogadores` da classe `Principal` de forma que ele exiba a quantidade
+  de jogadores carregados tanto no `ArrayList`, quanto no `HashMap`.
+
+Os números batem? O que acha que está acontecendo?
+
+<< Digite sua resposta aqui (trocando o texto dessa linha pela sua resposta) >>
+
+Você acha que há alguma resolver esse problema alterando o código?
+O que você mudaria na busca usando `ArrayList`?
+E como você trataria o uso do `HashMap`?
+
+- Obs.: não é necessário tratar essa questão no código, basta que responda abaixo.
+
+<< Digite sua resposta aqui (trocando o texto dessa linha pela sua resposta) >>
+
+## Passo 5 - Melhorando a busca
 
 Atualmente a busca exige que o nome do jogador seja digitado corretamente, inclusive os caracteres maiúsculos e minúsculos.
 
 Altere o sistema de forma que a busca dos jogadores pelo nome (tanto do `ArrayList` quanto do `HashMap`) ignorem os caracteres maiúsculos e minúsculos.
 
-## Passo 5 - Nova busca com ArrayList
+## Passo 6 - Nova busca com ArrayList
 
 Uma dificuldade de utilizar o sistema é que precisamos acertar exatamente o nome do jogador.
 
@@ -108,7 +135,7 @@ Dicas:
 
 Teste suas alterações!
 
-## Passo 6 - Nova busca com HashMap
+## Passo 7 - Nova busca com HashMap
 
 Vamos agora criar uma nova opção de menu `Buscar jogador pelo início do nome no HashMap`.
 
@@ -125,7 +152,7 @@ Compare as alterações que você fez nesse passo e no passo anterior.
 
 << Digite sua resposta aqui (trocando o texto dessa linha pela sua resposta) >>
 
-## [Opcional] Passo 7 - Usando HashMap para dados pré-processados
+## [Opcional] Passo 8 - Usando HashMap para dados pré-processados
 
 Suponha que o usuário quisesse consultar quantos jogadores nasceram em cada país.
 
