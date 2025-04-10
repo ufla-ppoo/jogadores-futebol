@@ -104,7 +104,7 @@ Os números batem? O que acha que está acontecendo?
 
 << Digite sua resposta aqui (trocando o texto dessa linha pela sua resposta) >>
 
-Você acha que há alguma resolver esse problema alterando o código?
+Você acha que há alguma forma de resolver esse problema alterando o código?
 O que você mudaria na busca usando `ArrayList`?
 E como você trataria o uso do `HashMap`?
 
@@ -166,13 +166,13 @@ para todos os países, e ficasse disponível para consulta de forma rápida.
 
 - Nós podemos fazer isso usando um `HashMap`.
 
-Seguindo essa ideia, neste passo você deve criar uma nova opção de menu
+Seguindo essa ideia, neste passo, você deve criar uma nova opção de menu
 `Número de jogadores por país`.
 
 - Para tratá-la, você precisará criar um novo atributo `HashMap` na classe `Principal`.
 - Esse atributo será usado para guardar a quantidade de jogadores que nasceram em cada país.
-- Os dados do `HashMap` devem ser carregados a partir do `HashMap` de jogadores, logo
-  após este último ser carregado.
+- Os dados deste novo `HashMap` devem ser carregados a partir do `HashMap` de jogadores que você já tinha implementado, logo
+  depois dele ser carregado.
   - Crie um método separado para tratar esse carregamento.
 - Quando o usuário acessar a nova opção de menu, ele deve informar o nome correto do país
   e a quantidade de jogadores que nasceram nele deve ser exibida para o usuário.
