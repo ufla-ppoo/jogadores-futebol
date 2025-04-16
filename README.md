@@ -23,7 +23,7 @@ Somente depois disso é que você deve passar para o próximo passo.
 Neste passo você deve fazer duas coisas: entender o funcionamento do sistema e entender o código implementado.
 
 Primeiramente, execute o programa e acesse todas as opções de menu para entender como ele funciona do
-ponto de vista o usuário.
+ponto de vista do usuário.
 
 - Experimente visualizar dados de vários jogadores diferentes.
 - Obs.: os nomes não possuem acentos.
@@ -46,7 +46,7 @@ Neste exercício, vamos alterar o sistema para que ele passe a utilizar um `Hash
 - A ideia é manter o uso do `ArrayList` e acrescentar o `HashMap` de forma que, ao final,
   você consiga comparar como cada um deles é utilizado.
 - Você perceberá ao final que, em um sistema real, certamente não utilizaríamos as duas coleções 
-  ao mesmo tempo (já que vamos acabar com várias replicações no código).
+  ao mesmo tempo (já que vamos acabar tendo várias replicações no código).
 - Mas, como já mencionado, a ideia é que você tenha o código das duas coleções para comparar. 
 
 Neste passo, você deve carregar os dados do arquivo em um `HashMap`.
@@ -62,7 +62,6 @@ Para isso:
 Você deve agora alterar a classe `Principal` para que:
 
 - ela tenha um atributo que é um `HashMap` de jogadores;
-- o atributo seja inicializado no construtor;
 - e os dados dos jogadores sejam carregados no `HashMap` no método `carregarJogadores` (logo após o carregamento do `ArrayList`) usando o método que você criou no passo anterior.
 
 Teste seu programa para confirmar que não ocorrem erros ao acessar a primeira opção do menu.

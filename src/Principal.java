@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Principal {
     // Coleção de jogadores
-    ArrayList<Jogador> jogadores;
+    private ArrayList<Jogador> jogadores;
     // Scanner para obter dados do usuário via terminal
     private Scanner entrada;
 
