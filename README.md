@@ -9,11 +9,13 @@ especificamente HashMaps.
 Somente depois disso é que você deve passar para o próximo passo.
 
 - **ATENÇÃO**: **desligue o GitHub Copilot para fazer o exercício!**
-  - Se você utilizá-lo você não estará realmente exercitando os conceitos aprendidos e
-    não terá o domínio adequado para desenvolver as habilidades necessárias para se tornar
+
+  - Se você utilizá-lo você não estará realmente praticando os conceitos aprendidos.
+  - E, com isso, não desenvolverá as habilidades necessárias para se tornar
 	um bom programador/desenvolvedor.
   - Sem contar ainda a questão do plágio.
-  - Lembre-se que você pode (e deve) consultar os materiais da disciplina para fazer o exercício.
+  - Os exercícios trazem exemplos de código em Java, e você também pode (e deve) consultar os
+    slides das aulas teóricas de revisão.
 
 - Esse arquivo README pode ser melhor visualizado no VS Code (com formatação adequada) 
   abrindo-o no modo de visualização. Para isso, basta apertar Ctrl+Sfhit+V com ele aberto.
